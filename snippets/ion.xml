@@ -22,7 +22,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="ion" />
-  <project path="frameworks/base" name="frameworks_base" remote="ion" />
+  <!--project path="frameworks/base" name="frameworks_base" remote="ion" /-->
   <project path="frameworks/ion" name="frameworks_ion" remote="ion" />
   <project path="frameworks/native" name="frameworks_native" remote="ion" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ion" />
@@ -46,8 +46,8 @@
   <project path="vendor/ion" name="vendor_ion" remote="ion" />
   <project path="vendor/overlays" name="vendor_overlays" remote="ion" />
   <project path="vendor/google/ion" name="vendor_google_ion" remote="ion" />
-  <project path="vendor/google/app" name="vendor_google_app" remote="ag" clone-depth="1" />
-  <project path="vendor/google/priv-app" name="vendor_google_priv-app" remote="ag" clone-depth="1" />
+  <!--project path="vendor/google/app" name="vendor_google_app" remote="ag" clone-depth="1" />
+  <project path="vendor/google/priv-app" name="vendor_google_priv-app" remote="ag" clone-depth="1" /-->
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="ion" />
@@ -55,7 +55,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/ionizer" name="packages_apps_ionizer" remote="ion" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="ion" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ion" />
+  <!--project path="packages/apps/Settings" name="packages_apps_Settings" remote="ion" /-->
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="ion" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="ion" />
   <project path="packages/providers/WeatherProvider" name="packages_providers_WeatherProvider" remote="ion" />
