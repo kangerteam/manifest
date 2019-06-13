@@ -3,7 +3,7 @@
 
 ## Initialize local repository ##
 ```bash
-repo init -u https://github.com/i-o-n/manifest -b pie
+repo init -u https://github.com/kangerteam/manifest -b patch-1
 ```
 
 ## Sync ##
