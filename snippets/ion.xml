@@ -6,15 +6,13 @@
           revision="pie" />
 
   <remote name="ag"
-          fetch="https://gitlab.com/AnkitGourav"
-          revision="pie" />
+          fetch="https://gitlab.com/shimawa"
+          revision="master" />
 
   <remote name="device"
           fetch="https://github.com/ion-OS"
           revision="pie" />
 
-  <!-- CodeAurora Additions -->
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="ion" />
 
   <!-- External repos -->
   <project path="external/perfetto" name="external_perfetto" remote="ion" />
@@ -43,11 +41,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="vendor/ion" name="vendor_ion" remote="ion" />
-  <project path="vendor/overlays" name="vendor_overlays" remote="ion" />
-  <project path="vendor/google/ion" name="vendor_google_ion" remote="ion" />
-  <project path="vendor/google/app" name="vendor_google_app" remote="ag" clone-depth="1" />
-  <project path="vendor/google/priv-app" name="vendor_google_priv-app" remote="ag" clone-depth="1" />
+  <project path="vendor" name="ionvendor" remote="ag" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="ion" />
